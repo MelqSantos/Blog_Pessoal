@@ -1,0 +1,40 @@
+<div class="container-fluid">
+
+    <div id="login" class="row">
+        <div class="col-md-6 d-flex align-items-center justify-content-center">
+            <div id="entrar-img"></div>
+        </div>
+
+        <div id="entrar-form" class="col-md-6 d-flex flex-column justify-content-center">
+
+            <div class="row">
+                <div class="col-md-12 titulo">
+                    <h1 class="m-0">Login</h1>
+                    <h4>Ainda não tem uma conta? <span><a routerLink="/cadastrar">Cadastre-se</a></span></h4>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-8 pb-4">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Usuário</label>
+                            <input type="text" class="form-control" id="name">
+                        </div>
+                        <div class="form-group">
+                            <label for="senha">Senha</label>
+                            <input type="password" class="form-control" id="senha" placeholder="Senha de 8 dígitos">
+                        </div>
+
+                        <button routerLink="/menu" type="submit" class="btn btn-custom d-flex align-items-center justify-content-center mt-4">
+                            <mat-icon class="mr-2">login</mat-icon>Login
+                        </button>
+
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="wave"></div>

@@ -1,0 +1,51 @@
+    * :not(mat-icon, i) {
+        font-family: 'Poppins', sans-serif !important;
+    }
+    
+    #login {
+        height: 75vh;
+    }
+    
+    .wave {
+        background: url(/assets/imagens/svg/wave.svg);
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: calc(25vh);
+    }
+    
+    .titulo span {
+        color: #0099FF;
+        font-weight: 600;
+    }
+    
+    .titulo h1 {
+        font-weight: 600;
+    }
+    
+    #entrar-img {
+        width: 80%;
+        height: 80%;
+        background: url(/assets/imagens/svg/login.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    form button {
+        background: linear-gradient(to right, #0099FF, #5B86E5);
+        width: 100%;
+        color: #fff;
+        transition: .5s;
+        opacity: 1;
+        border: none !important;
+    }
+    
+    form button:hover {
+        opacity: .9;
+    }
+    
+    @media (max-width: 768px) {
+        #entrar-img {
+            display: none;
+        }
+    }

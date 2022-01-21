@@ -1,0 +1,62 @@
+* :not(mat-icon, i) {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+#login {
+    height: 100vh;
+}
+
+.wave {
+    background: url(/assets/imagens/svg/wave.svg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: calc(25vh);
+}
+
+.titulo span {
+    color: #0099FF;
+    font-weight: 600;
+}
+
+.titulo h1 {
+    font-weight: 600;
+}
+
+#cadastrar-img {
+    width: 80%;
+    height: 80%;
+    background: url(/assets/imagens/svg/cadastrar.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+form button {
+    background: linear-gradient(to right, #0099FF, #5B86E5);
+    border: none;
+    width: 100%;
+    color: #fff;
+    transition: .5s;
+    opacity: 1;
+}
+
+.btn-custom {
+    background: linear-gradient(to right, #FF725E, #C53F3F) !important;
+}
+
+form button:hover {
+    opacity: .9;
+}
+
+@media (max-width: 768px) {
+    #entrar-img {
+        display: none;
+    }
+    .botoes,
+    #cadastrar-form {
+        margin-top: 10px !important;
+    }
+    .btn-custom {
+        margin-top: 15px;
+    }
+}

@@ -1,0 +1,18 @@
+*:not(mat-icon, i) {
+    font-family: 'Poppins', sans-serif;
+}
+
+footer {
+    background-color: #343A40 !important;
+}
+
+.social a {
+    color: #fff;
+    font-size: 30px;
+    padding: 0 10px;
+    transition: .5s;
+}
+
+.social a:hover {
+    color: #0099FF;
+}
